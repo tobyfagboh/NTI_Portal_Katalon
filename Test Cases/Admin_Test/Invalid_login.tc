@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Invalid_login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e144fdcc-8483-414e-a396-b11b97608c1a</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f4404092-3136-48ab-bb30-d7c6ec1ea83c</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b927329f-d629-44a3-9965-b223e0baebbb</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

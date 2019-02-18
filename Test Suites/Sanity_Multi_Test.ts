@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Sanity_Multi_Test</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>dc63972a-74bc-4add-83e7-53e0ea8561c5</testSuiteGuid>
+   <testCaseLink>
+      <guid>5565a0f5-628f-48a9-8b7a-8a40db4e00b8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin_Test/Invalid_login</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>335ddb52-72d2-4385-9f09-5e8a5d7e7af9</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/csv/invalid-accounts</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>335ddb52-72d2-4385-9f09-5e8a5d7e7af9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>f4404092-3136-48ab-bb30-d7c6ec1ea83c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>335ddb52-72d2-4385-9f09-5e8a5d7e7af9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>b927329f-d629-44a3-9965-b223e0baebbb</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c13fb3e4-49ef-4b29-8e24-c5ed7b3c9a79</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Admin_Test/Valid_login</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>72254248-1130-4b88-af8d-bb1cb306ab1b</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/csv/admin_testdata</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>72254248-1130-4b88-af8d-bb1cb306ab1b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>12c5fc19-802c-48bf-adce-bb249ea2a76b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>72254248-1130-4b88-af8d-bb1cb306ab1b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>ef7d422c-144f-4625-bd20-5fe708be3122</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

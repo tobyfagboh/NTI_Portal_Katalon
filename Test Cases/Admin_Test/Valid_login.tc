@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Valid_login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>01fb2250-b4bf-4f43-b3e1-87214ce07203</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>12c5fc19-802c-48bf-adce-bb249ea2a76b</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ef7d422c-144f-4625-bd20-5fe708be3122</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
